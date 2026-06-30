@@ -1,0 +1,43 @@
+/* 基礎重設與暗黑背景 */
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0d1117;
+    color: #58a6ff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/* 遊戲主容器 */
+.game-container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    letter-spacing: 5px;
+    color: #58a6ff;
+    text-shadow: 0 0 10px rgba(88, 166, 255, 0.6);
+}
+
+/* 分數板 */
+.score-board {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    font-weight: bold;
+    color: #7ee787;
+    text-shadow: 0 0 8px rgba(126, 231, 135, 0.4);
+}
+
+/* 遊戲畫布 */
+canvas {
+    background-color: #161b22;
+    border: 4px solid #30363d;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8), 0 0 15px rgba(88, 166, 255, 0.2);
+    border-radius: 4px;
+}
